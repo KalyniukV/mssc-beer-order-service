@@ -1,8 +1,8 @@
 package com.example.msscbeerorderservice.web.controllers;
 
 import com.example.msscbeerorderservice.services.BeerOrderService;
-import com.example.msscbeerorderservice.web.model.BeerOrderDto;
-import com.example.msscbeerorderservice.web.model.BeerOrderPagedList;
+import com.example.model.BeerOrderDto;
+import com.example.model.BeerOrderPagedList;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

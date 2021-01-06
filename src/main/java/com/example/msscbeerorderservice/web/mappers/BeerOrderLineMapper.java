@@ -1,7 +1,7 @@
 package com.example.msscbeerorderservice.web.mappers;
 
 import com.example.msscbeerorderservice.domain.BeerOrderLine;
-import com.example.msscbeerorderservice.web.model.BeerOrderLineDto;
+import com.example.model.BeerOrderLineDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

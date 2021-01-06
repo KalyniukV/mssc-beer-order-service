@@ -1,4 +1,4 @@
-package com.example.msscbeerorderservice.web.model;
+package com.example.model;
 
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;

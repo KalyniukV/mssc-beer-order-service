@@ -1,6 +1,6 @@
 package com.example.msscbeerorderservice.services.beer;
 
-import com.example.msscbeerorderservice.web.model.BeerDto;
+import com.example.model.BeerDto;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;

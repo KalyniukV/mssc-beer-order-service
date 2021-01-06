@@ -1,6 +1,6 @@
 package com.example.msscbeerorderservice.services.beer;
 
-import com.example.msscbeerorderservice.web.model.BeerDto;
+import com.example.model.BeerDto;
 
 import java.util.Optional;
 import java.util.UUID;
