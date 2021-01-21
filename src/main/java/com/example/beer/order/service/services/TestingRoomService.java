@@ -35,7 +35,7 @@ public class TestingRoomService {
     }
 
     @Transactional
-    @Scheduled(fixedRate = 2000)
+//    @Scheduled(fixedRate = 2000)
     public void placeTastingRoomOrder() {
         List<Customer> customers = customerRepository.findAllByCustomerNameLike(BeerOrderBootStrap.TASTING_ROOM);
 
