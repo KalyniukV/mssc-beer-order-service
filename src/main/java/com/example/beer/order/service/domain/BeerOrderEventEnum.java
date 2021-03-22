@@ -2,6 +2,7 @@ package com.example.beer.order.service.domain;
 
 public enum BeerOrderEventEnum {
     VALIDATE_ORDER,
+    CANCEL_ORDER,
     VALIDATION_PASSED,
     VALIDATION_FAILED,
     ALLOCATE_ORDER,
