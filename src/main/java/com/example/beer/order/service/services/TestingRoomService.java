@@ -35,7 +35,7 @@ public class TestingRoomService {
     }
 
     @Transactional
-//    @Scheduled(fixedRate = 2000)
+    @Scheduled(fixedRate = 2000)
     public void placeTastingRoomOrder() {
         List<Customer> customers = customerRepository.findAllByCustomerNameLike(BeerOrderBootStrap.TASTING_ROOM);
 
@@ -43,6 +43,7 @@ public class TestingRoomService {
             doPlaceOrder(customers.get(0));
         } else {
             log.error("Too many or few tasting room customer found");
+            customers.forEach(customer -> log.debug(customer.toString()));
         }
     }
 
